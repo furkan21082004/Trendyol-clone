@@ -1,0 +1,319 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    line-height: 1.6;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --main-color:#F27A1A
+}
+
+
+
+
+
+
+
+
+
+/* header kısmı başlangıç */
+
+header{
+    margin-top: 3px;
+}
+
+.topbar ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.topbar ul li {
+    margin-right: 22px;
+    color: lightgray;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.topbar ul li:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.bottombar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.bottombar img {
+    width: 146px;
+    margin-left: 30px;
+}
+
+.bottombar .bottom_right_bar{
+    margin-right: 30px;
+}
+
+.bottombar .bottom_right_bar ul{
+display: flex;
+justify-content:end;
+align-items: center;
+}
+
+.bottombar .bottom_right_bar ul li {
+    margin-right: 30px;
+} 
+
+/* Search butonu */
+.bottombar form .search-input{
+    width: 600px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: #F3F3F3;
+    padding: 10px;
+    border-radius: 5px;
+    transition: border 0.1s ease; 
+}
+
+.bottombar form .search-input:focus{
+    border: 2.5px solid var(--main-color) !important;
+}
+
+
+.bottombar form .search-buton{
+    margin-left: -35px;
+    padding: 3px;
+    border: none;
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+.bottom_right_bar ul i {
+    font-size: 15px;
+    transition: 0.1s ease-in-out;
+}
+
+.bottom_right_bar ul i:hover{
+    color: var(--main-color);
+}
+
+.bottom_right_bar ul li:hover{
+    color: var(--main-color);
+}
+
+/* navbar kısmı başlangıç */
+nav{
+   width: 100%;
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+nav ul li { 
+    margin-right: 20px;
+}
+
+nav .leftnav i, a{
+    color: black;
+    font-variant: small-caps;
+}
+
+nav{
+    border-bottom: 1px solid lightgray;
+}
+
+nav li:hover{
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+/* nav kısmı bitti */
+
+
+
+
+
+/* Top footer başlangıç */
+
+.top-footer{
+    font-size: 14px;
+    padding: 25px;
+    line-height: 1.8;
+}
+
+
+
+/* pop markalar */
+.popular-brands{
+    width: 95%;
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 3%;
+    margin-left: 18px;
+    margin-bottom: 2%;
+}
+.popular-brands div{
+    font-size: 20px;
+}
+
+.popular-page-brands{
+    margin-left: 300px;
+}
+.container-populer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.column {
+    width: 20%;
+}
+
+.column li{
+    font-size: 14px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+.column li {
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+/* Footer container başlangıç */
+.footer-container{
+    width: 100%;
+    background-color: lightgray;
+    padding-top: 4%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container h3{
+    font-size: 26px;
+}
+
+
+.footer-container li{
+    line-height: 2;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.country-button{
+    width: 166px;
+    height: 35px;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    margin:2% 1%;
+    text-align: left;
+    padding: 5px;
+}
+
+
+.country-button:hover{
+    border: 1px solid var(--main-color);
+}
+.social-icons a {
+    text-decoration: none;
+    font-size: 32px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.social-icons a:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.facebook { background-color: #3b5998; }
+.instagram { background-color: #e1306c; }
+.youtube { background-color: #ff0000; }
+.twitter { background-color: #000; }
+
+
+/* footer-bottom başlangıç */
+.footer-bottom {
+    width: 100%; 
+    background-color: #F5F5F5;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.footer-section {
+    flex: 1; 
+    max-width: 300px; 
+}
+
+.footer-bottom img {
+    width: 56px;
+    height: 56px;
+    margin: 5px;
+}
+
+.right-bottom-container img {
+    width: 128px;
+    height: 36px;
+}
+
+
+
+/* b-container */
+.b-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.bb-container{
+    display: flex;
+    
+    
+}
+
+.bb-container a{
+    margin-left: 10px;
+    color: white;
+}
+
+

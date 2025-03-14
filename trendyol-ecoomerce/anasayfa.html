@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>En Trend Ürünler Türkiye'nin Online Alışveriş Sitesi Trendyol'da</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+  <button id="yukariCik" onclick="scrollToTop()">⬆ Yukarı Çık</button>
+    <!--Sayfamızın menü kısmı -->
+    <header>
+        <div class="topbar">
+            <ul>
+                <li>İndirim Kuponlarım </li>
+                <li>Trendyol'da Satış Yap </li>
+                <li>Hakkımızda </li>
+                <li>Yardım & Destek</li>
+            </ul>
+        </div>
+
+        <div class="bottombar">
+            <a href="" class="logo"><img src="img/logo.svg" alt=""></a>
+            <form action="">
+                <input type="text" class="form-control search-input" id="formGroupExampleInput" placeholder="Aradığınız ürün, kategori veya markayı yazınız">
+                <button class="search-buton"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <div class="bottom_right_bar">
+                <ul>
+                  <li><i class="fa-solid fa-user"></i><a href="login.html" target="_blank"> Giriş Yap</a></li>
+                  <li><i class="fa-regular fa-heart"></i> Favorilerim</li>
+                  <li><i class="fa-solid fa-cart-shopping"></i> Sepetim</li>
+                </ul>
+            </div>
+        </div>
+
+        <nav>
+            <div class="leftnav">
+              <a href="#">
+                <i class="fa-solid fa-ellipsis-vertical"></i> TÜM KATEGORİLER
+            </a>
+            </div>
+            <div class="rightnav">
+                <ul>
+                    <li>Kadın</li>
+                    <li>Erkek</li>
+                    <li>Anne&Çocuk</li>
+                    <li>Ev&Yaşam</li>
+                    <li>Süpermarket</li>
+                    <li>Kozmetik</li>
+                    <li>Ayakkabı&Çanta</li>
+                    <li>Elektronik</li>
+                    <li>Çok Satanlar</li><i></i>
+                    <li>Flaş Ürünler</li><i></i>
+                </ul>
+            </div>
+        </nav>
+      
+    </header>
+<!-- Menüden hemen sonra gelen resimli semboller kısmı -->
+
+    <main>
+        <div class="container_semboller">
+            <div class="containsdp"><img src="img/1.resim.webp" class="semboller" alt=""><p>İyi Fiyatlı Ürünler</p></div>
+            <div class="containsdp"><img src="img/2.resim.webp" class="semboller" alt=""><p>Sen De Al!</p></div>
+            <div class="containsdp"><img src="img/3.resim.webp" class="semboller" alt=""><p>Avantajlı Ürünler</p></div>
+            <div class="containsdp"><img src="img/4.resim.webp" class="semboller" alt=""><p>İndirim Kuponlarım</p></div>
+            <div class="containsdp"><img src="img/5.resim.webp" class="semboller" alt=""><p>Krediler</p></div>
+            <div class="containsdp"><img src="img/6.resim.webp" class="semboller" alt=""><p>Kredi Kartı</p></div>
+            <div class="containsdp"><img src="img/7.resim.webp" class="semboller" alt=""><p>Yeni Gelen Ürünler</p></div>
+        </div>
+        <!-- Semboller kısmı bitti -->
+
+
+<!-- 4 card eklenmesi  -->
+        <div class="banner-listing-items">
+            <div><img src="img/sepeteeklenenler.webp" alt=""></div>
+            <div><img src="img/öneçıkanlar.webp" alt=""></div>
+            <div><img src="img/flaşürünler.webp" alt=""></div>
+            <div><img src="img/kampanya.webp" alt=""></div>
+
+        </div>
+    </main>
+
+
+<!-- Popüler ürünler alanı -->
+<!--Bootstrap Kart kısımlarına başlangıç -->
+
+<div class="container">
+  <button class="navigation prev" onclick="moveSlide(-1)">&#10094;</button>
+  <div style="font-weight:600;font-size: 22px;margin-left: 15px;">Popüler Ürünler</div>
+  <div class="slider-wrapper">
+      <div class="slider">
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card1.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 1 - Ürün 1</h4>
+                  <p class="stars">⭐⭐⭐⭐☆ (120)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;"> 250 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card2.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 2 - Ürün 2</h4>
+                  <p class="stars">⭐⭐⭐☆☆ (90)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">200 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card3.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 3 - Ürün 3</h4>
+                  <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">300 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card4.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 4 - Ürün 4</h4>
+                  <p class="stars">⭐⭐⭐⭐ (95)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">280 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card5.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 5 - Ürün 5</h4>
+                  <p class="stars">⭐⭐⭐⭐⭐ (180)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">350 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+            <img src="img/card1.webp" alt="Ürün">
+            <div class="info">
+                <h4>Marka 1 - Ürün 1</h4>
+                <p class="stars">⭐⭐⭐⭐☆ (120)</p>
+                <p style="margin:30px;color:orange;font-weight: bold;">250 TL</p>
+            </div>
+        </div>
+        <div class="card">
+          <button class="heart-button like">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+            </svg>
+          </button>
+            <img src="img/card2.webp" alt="Ürün">
+            <div class="info">
+                <h4>Marka 2 - Ürün 2</h4>
+                <p class="stars">⭐⭐⭐☆☆ (90)</p>
+                <p style="margin:30px;color:orange;font-weight: bold;">200 TL</p>
+            </div>
+        </div>
+        <div class="card">
+          <button class="heart-button like">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+            </svg>
+          </button>
+            <img src="img/card11.webp" alt="Ürün">
+            <div class="info">
+                <h4>Marka 3 - Ürün 3</h4>
+                <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                <p style="margin:30px;color:orange;font-weight: bold;">300 TL</p>
+            </div>
+        </div>
+        <div class="card">
+          <button class="heart-button like">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+            </svg>
+          </button>
+            <img src="img/card12.webp" alt="Ürün">
+            <div class="info">
+                <h4>Marka 3 - Ürün 3</h4>
+                <p class="stars">⭐☆☆☆☆ (150)</p>
+                <p style="margin:30px;color:orange;font-weight: bold;">300 TL</p>
+            </div>
+        </div>
+        <div class="card">
+          <button class="heart-button like">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+            </svg>
+          </button>
+            <img src="img/card13.webp" alt="Ürün">
+            <div class="info">
+                <h4>Marka 3 - Ürün 3</h4>
+                <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                <p style="margin:30px;color:orange;font-weight: bold;">290 TL</p>
+            </div>
+        </div>
+        <div class="card">
+          <button class="heart-button like">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+            </svg>
+          </button>
+            <img src="img/card14.webp" alt="Ürün">
+            <div class="info">
+                <h4>Marka 3 - Ürün 3</h4>
+                <p class="stars">⭐⭐⭐☆☆ (150)</p>
+                <p style="margin:30px;color:orange;font-weight: bold;">200 TL</p>
+            </div>
+        </div>
+        <div class="card">
+          <button class="heart-button like">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+            </svg>
+          </button>
+            <img src="img/card11.webp" alt="Ürün">
+            <div class="info">
+                <h4>Marka 3 - Ürün 3</h4>
+                <p class="stars">⭐⭐⭐⭐☆ (150)</p>
+                <p style="margin:30px;color:orange;font-weight: bold;">1000 TL</p>
+            </div>
+        </div>
+        <div class="card">
+          <button class="heart-button like">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+            </svg>
+          </button>
+            <img src="img/card7.webp" alt="Ürün">
+            <div class="info">
+                <h4>Marka 3 - Ürün 3</h4>
+                <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                <p style="margin:30px;color:orange;font-weight: bold;">900 TL</p>
+            </div>
+        </div>
+        <div class="card">
+          <button class="heart-button like">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+            </svg>
+          </button>
+            <img src="img/card3.webp" alt="Ürün">
+            <div class="info">
+                <h4>Marka 3 - Ürün 3</h4>
+                <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                <p style="margin:30px;color:orange;font-weight: bold;">500 TL</p>
+            </div>
+        </div>
+        <div class="card">
+          <button class="heart-button like">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+            </svg>
+          </button>
+            <img src="img/card8.webp" alt="Ürün">
+            <div class="info">
+                <h4>Marka 3 - Ürün 3</h4>
+                <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                <p style="margin:30px;color:orange;font-weight: bold;">300 TL</p>
+            </div>
+        </div>
+      </div>
+  </div>
+  <button class="navigation next" onclick="moveSlide(1)">&#10095;</button>
+</div>
+</div>
+
+</div>
+
+
+<!-- Kart kısmı bitiş --> 
+
+<br>
+
+<!-- 3 card -->
+    <main class="m-component-items">
+        <div class="component-items">
+            <div><img src="img/card60.webp" alt=""></div>
+            <div><img src="img/card61.webp" alt=""></div>
+            <div><img src="img/card62.webp" alt=""></div>
+        </div>
+    </main>
+<br>
+<!-- Flaş Ürünler -->
+
+      <div class="container">
+        <button class="navigation prev" onclick="moveSlide(-1)">&#10094;</button>
+        
+        <div class="top-left-main-container">
+          <img src="img/flashIcon.svg" alt="">
+      <h2>Flaş Ürünler</h2>
+      <div class="timer">00</div>
+      <p>:</p>
+      <div class="timer">00</div>
+      <p>:</p>
+      <div class="timer">00</div>
+    </div>
+        <div class="slider-wrapper">
+            <div class="slider">
+                <div class="card">
+                  <button class="heart-button like">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                    </svg>
+                  </button>
+                    <img src="img/card1.webp" alt="Ürün">
+                    <div class="info">
+                        <h4>Marka 1 - Ürün 1</h4>
+                        <p class="stars">⭐⭐⭐⭐☆ (120)</p>
+                        <p style="margin:30px;color:orange;font-weight: bold;"> 250 TL</p>
+                    </div>
+                </div>
+                <div class="card">
+                  <button class="heart-button like">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                    </svg>
+                  </button>
+                    <img src="img/card2.webp" alt="Ürün">
+                    <div class="info">
+                        <h4>Marka 2 - Ürün 2</h4>
+                        <p class="stars">⭐⭐⭐☆☆ (90)</p>
+                        <p style="margin:30px;color:orange;font-weight: bold;">200 TL</p>
+                    </div>
+                </div>
+                <div class="card">
+                  <button class="heart-button like">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                    </svg>
+                  </button>
+                    <img src="img/card3.webp" alt="Ürün">
+                    <div class="info">
+                        <h4>Marka 3 - Ürün 3</h4>
+                        <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                        <p style="margin:30px;color:orange;font-weight: bold;">300 TL</p>
+                    </div>
+                </div>
+                <div class="card">
+                  <button class="heart-button like">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                    </svg>
+                  </button>
+                    <img src="img/card4.webp" alt="Ürün">
+                    <div class="info">
+                        <h4>Marka 4 - Ürün 4</h4>
+                        <p class="stars">⭐⭐⭐⭐ (95)</p>
+                        <p style="margin:30px;color:orange;font-weight: bold;">280 TL</p>
+                    </div>
+                </div>
+                <div class="card">
+                  <button class="heart-button like">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                    </svg>
+                  </button>
+                    <img src="img/card5.webp" alt="Ürün">
+                    <div class="info">
+                        <h4>Marka 5 - Ürün 5</h4>
+                        <p class="stars">⭐⭐⭐⭐⭐ (180)</p>
+                        <p style="margin:30px;color:orange;font-weight: bold;">350 TL</p>
+                    </div>
+                </div>
+                <div class="card">
+                  <button class="heart-button like">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                    </svg>
+                  </button>
+                  <img src="img/card1.webp" alt="Ürün">
+                  <div class="info">
+                      <h4>Marka 1 - Ürün 1</h4>
+                      <p class="stars">⭐⭐⭐⭐☆ (120)</p>
+                      <p style="margin:30px;color:orange;font-weight: bold;">250 TL</p>
+                  </div>
+              </div>
+              <div class="card">
+                <button class="heart-button like">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                  </svg>
+                </button>
+                  <img src="img/card2.webp" alt="Ürün">
+                  <div class="info">
+                      <h4>Marka 2 - Ürün 2</h4>
+                      <p class="stars">⭐⭐⭐☆☆ (90)</p>
+                      <p style="margin:30px;color:orange;font-weight: bold;">200 TL</p>
+                  </div>
+              </div>
+              <div class="card">
+                <button class="heart-button like">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                  </svg>
+                </button>
+                  <img src="img/card11.webp" alt="Ürün">
+                  <div class="info">
+                      <h4>Marka 3 - Ürün 3</h4>
+                      <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                      <p style="margin:30px;color:orange;font-weight: bold;">300 TL</p>
+                  </div>
+              </div>
+              <div class="card">
+                <button class="heart-button like">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                  </svg>
+                </button>
+                  <img src="img/card12.webp" alt="Ürün">
+                  <div class="info">
+                      <h4>Marka 3 - Ürün 3</h4>
+                      <p class="stars">⭐☆☆☆☆ (150)</p>
+                      <p style="margin:30px;color:orange;font-weight: bold;">300 TL</p>
+                  </div>
+              </div>
+              <div class="card">
+                <button class="heart-button like">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                  </svg>
+                </button>
+                  <img src="img/card13.webp" alt="Ürün">
+                  <div class="info">
+                      <h4>Marka 3 - Ürün 3</h4>
+                      <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                      <p style="margin:30px;color:orange;font-weight: bold;">290 TL</p>
+                  </div>
+              </div>
+              <div class="card">
+                <button class="heart-button like">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                  </svg>
+                </button>
+                  <img src="img/card14.webp" alt="Ürün">
+                  <div class="info">
+                      <h4>Marka 3 - Ürün 3</h4>
+                      <p class="stars">⭐⭐⭐☆☆ (150)</p>
+                      <p style="margin:30px;color:orange;font-weight: bold;">200 TL</p>
+                  </div>
+              </div>
+              <div class="card">
+                <button class="heart-button like">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                  </svg>
+                </button>
+                  <img src="img/card11.webp" alt="Ürün">
+                  <div class="info">
+                      <h4>Marka 3 - Ürün 3</h4>
+                      <p class="stars">⭐⭐⭐⭐☆ (150)</p>
+                      <p style="margin:30px;color:orange;font-weight: bold;">1000 TL</p>
+                  </div>
+              </div>
+              <div class="card">
+                <button class="heart-button like">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                  </svg>
+                </button>
+                  <img src="img/card7.webp" alt="Ürün">
+                  <div class="info">
+                      <h4>Marka 3 - Ürün 3</h4>
+                      <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                      <p style="margin:30px;color:orange;font-weight: bold;">900 TL</p>
+                  </div>
+              </div>
+              <div class="card">
+                <button class="heart-button like">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                  </svg>
+                </button>
+                  <img src="img/card3.webp" alt="Ürün">
+                  <div class="info">
+                      <h4>Marka 3 - Ürün 3</h4>
+                      <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                      <p style="margin:30px;color:orange;font-weight: bold;">500 TL</p>
+                  </div>
+              </div>
+              <div class="card">
+                <button class="heart-button like">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                  </svg>
+                </button>
+                  <img src="img/card8.webp" alt="Ürün">
+                  <div class="info">
+                      <h4>Marka 3 - Ürün 3</h4>
+                      <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                      <p style="margin:30px;color:orange;font-weight: bold;">300 TL</p>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <button class="navigation next" onclick="moveSlide(1)">&#10095;</button>
+      </div>
+      </div>
+      
+      </div>
+
+    
+   <br><br>
+      <!-- Flaş Ürünler Bitiş -->
+
+
+<!-- Popüler Kategoriler Başlangıç -->
+ <main>
+  <div class="personalized-banner-container">
+    <span class="banner-title">Popüler Kategoriler</span>
+    <div class="styles-module_sliderBase">
+      <a href="" class="banner-item"><img src="img/banner1.webp" alt="" class="banner-img"></a>
+      <a href="" class="banner-item"><img src="img/banner2.webp" alt="" class="banner-img"></a>
+      <a href="" class="banner-item"><img src="img/banner3.webp" alt="" class="banner-img"></a>
+      <a href="" class="banner-item"><img src="img/banner4.webp" alt="" class="banner-img"></a>
+      <a href="" class="banner-item"><img src="img/banner5.webp" alt="" class="banner-img"></a>
+      <a href="" class="banner-item"><img src="img/banner6.webp" alt="" class="banner-img"></a>
+    </div>
+  </div>
+ </main>
+
+<br>
+<!-- 3 card -->
+ <main class="m-component-items">
+  <div class="component-items">
+      <div><img src="img/card63.webp" alt=""></div>
+      <div><img src="img/card64.webp" alt=""></div>
+      <div><img src="img/card65.webp" alt=""></div>
+  </div>
+</main>
+
+
+
+<br>
+<!-- Sana Özel Markalar -->
+ <div  class="banner-title"><span>Sana Özel Markalar</span></div>
+<main>
+  <div class="center-slider">
+      <button class="slider-btn prev-btn">❮</button>
+      <div class="slider-wrapper">
+          <div class="slider-content">
+              <a href="#" class="center-banner-item"><img src="img/marka1.webp" alt=""></a>
+              <a href="#" class="center-banner-item"><img src="img/marka2.webp" alt=""></a>
+              <a href="#" class="center-banner-item"><img src="img/marka3.webp" alt=""></a>
+              <a href="#" class="center-banner-item"><img src="img/marka4.webp" alt=""></a>
+              <a href="#" class="center-banner-item"><img src="img/marka5.webp" alt=""></a>
+              <a href="#" class="center-banner-item"><img src="img/marka6.webp" alt=""></a>
+              <a href="#" class="center-banner-item"><img src="img/marka7.webp" alt=""></a>
+              <a href="#" class="center-banner-item"><img src="img/marka8.webp" alt=""></a>
+              <a href="#" class="center-banner-item"><img src="img/marka9.webp" alt=""></a>
+              <a href="#" class="center-banner-item"><img src="img/marka10.webp" alt=""></a>
+              <a href="#" class="center-banner-item"><img src="img/marka1.webp" alt=""></a>
+              <a href="#" class="center-banner-item"><img src="img/marka12.webp" alt=""></a>
+              <a href="#" class="center-banner-item"><img src="img/marka13.webp" alt=""></a>
+              <a href="#" class="center-banner-item"><img src="img/marka14.webp" alt=""></a>
+              <a href="#" class="center-banner-item"><img src="img/marka15.webp" alt=""></a>
+              <a href="#" class="center-banner-item"><img src="img/marka16.webp" alt=""></a>
+              <a href="#" class="center-banner-item"><img src="img/marka17.webp" alt=""></a>
+              <a href="#" class="center-banner-item"><img src="img/marka18.webp" alt=""></a>
+              <a href="#" class="center-banner-item"><img src="img/marka19.webp" alt=""></a>
+              <a href="#" class="center-banner-item"><img src="img/marka20.webp" alt=""></a>
+          </div>
+      </div>
+      <button class="slider-btn next-btn">❯</button>
+  </div>
+</main>
+<!-- Sana Özel Markalar Kısmı Bitti -->
+
+<br><br>
+
+<!--Çok Satan Ürünler -->
+
+
+  <div class="container">
+    <button class="navigation prev" onclick="moveSlide(-1)">&#10094;</button>
+    <div style="font-weight:600;font-size: 22px;margin-left: 15px;">Çok Satan Ürünler</div>
+    <div class="slider-wrapper">
+        <div class="slider">
+            <div class="card">
+              <button class="heart-button like">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                </svg>
+              </button>
+                <img src="img/card1.webp" alt="Ürün">
+                <div class="info">
+                    <h4>Marka 1 - Ürün 1</h4>
+                    <p class="stars">⭐⭐⭐⭐☆ (120)</p>
+                    <p style="margin:30px;color:orange;font-weight: bold;"> 250 TL</p>
+                </div>
+            </div>
+            <div class="card">
+              <button class="heart-button like">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                </svg>
+              </button>
+                <img src="img/card2.webp" alt="Ürün">
+                <div class="info">
+                    <h4>Marka 2 - Ürün 2</h4>
+                    <p class="stars">⭐⭐⭐☆☆ (90)</p>
+                    <p style="margin:30px;color:orange;font-weight: bold;">200 TL</p>
+                </div>
+            </div>
+            <div class="card">
+              <button class="heart-button like">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                </svg>
+              </button>
+                <img src="img/card3.webp" alt="Ürün">
+                <div class="info">
+                    <h4>Marka 3 - Ürün 3</h4>
+                    <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                    <p style="margin:30px;color:orange;font-weight: bold;">300 TL</p>
+                </div>
+            </div>
+            <div class="card">
+              <button class="heart-button like">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                </svg>
+              </button>
+                <img src="img/card4.webp" alt="Ürün">
+                <div class="info">
+                    <h4>Marka 4 - Ürün 4</h4>
+                    <p class="stars">⭐⭐⭐⭐ (95)</p>
+                    <p style="margin:30px;color:orange;font-weight: bold;">280 TL</p>
+                </div>
+            </div>
+            <div class="card">
+              <button class="heart-button like">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                </svg>
+              </button>
+                <img src="img/card5.webp" alt="Ürün">
+                <div class="info">
+                    <h4>Marka 5 - Ürün 5</h4>
+                    <p class="stars">⭐⭐⭐⭐⭐ (180)</p>
+                    <p style="margin:30px;color:orange;font-weight: bold;">350 TL</p>
+                </div>
+            </div>
+            <div class="card">
+              <button class="heart-button like">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                </svg>
+              </button>
+              <img src="img/card1.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 1 - Ürün 1</h4>
+                  <p class="stars">⭐⭐⭐⭐☆ (120)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">250 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card2.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 2 - Ürün 2</h4>
+                  <p class="stars">⭐⭐⭐☆☆ (90)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">200 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card11.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 3 - Ürün 3</h4>
+                  <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">300 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card12.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 3 - Ürün 3</h4>
+                  <p class="stars">⭐☆☆☆☆ (150)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">300 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card13.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 3 - Ürün 3</h4>
+                  <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">290 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card14.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 3 - Ürün 3</h4>
+                  <p class="stars">⭐⭐⭐☆☆ (150)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">200 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card11.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 3 - Ürün 3</h4>
+                  <p class="stars">⭐⭐⭐⭐☆ (150)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">1000 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card7.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 3 - Ürün 3</h4>
+                  <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">900 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card3.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 3 - Ürün 3</h4>
+                  <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">500 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card8.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 3 - Ürün 3</h4>
+                  <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">300 TL</p>
+              </div>
+          </div>
+        </div>
+    </div>
+    <button class="navigation next" onclick="moveSlide(1)">&#10095;</button>
+  </div>
+  </div>
+  
+  </div>
+<br><br>
+<!-- three card -->
+<main class="m-component-items">
+  <div class="component-items">
+      <div><img src="img/card67.webp" alt=""></div>
+      <div><img src="img/card68.webp" alt=""></div>
+      <div><img src="img/card66.webp" alt=""></div>
+  </div>
+</main>
+
+<br><br>
+<!-- Avantajlı Ürünler -->
+
+  <div class="container">
+    <button class="navigation prev" onclick="moveSlide(-1)">&#10094;</button>
+    <div style="font-weight:600;font-size: 22px;margin-left: 15px;">Avantajlı Ürünler</div>
+    <div class="slider-wrapper">
+        <div class="slider">
+            <div class="card">
+              <button class="heart-button like">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                </svg>
+              </button>
+                <img src="img/card1.webp" alt="Ürün">
+                <div class="info">
+                    <h4>Marka 1 - Ürün 1</h4>
+                    <p class="stars">⭐⭐⭐⭐☆ (120)</p>
+                    <p style="margin:30px;color:orange;font-weight: bold;"> 250 TL</p>
+                </div>
+            </div>
+            <div class="card">
+              <button class="heart-button like">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                </svg>
+              </button>
+                <img src="img/card2.webp" alt="Ürün">
+                <div class="info">
+                    <h4>Marka 2 - Ürün 2</h4>
+                    <p class="stars">⭐⭐⭐☆☆ (90)</p>
+                    <p style="margin:30px;color:orange;font-weight: bold;">200 TL</p>
+                </div>
+            </div>
+            <div class="card">
+              <button class="heart-button like">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                </svg>
+              </button>
+                <img src="img/card3.webp" alt="Ürün">
+                <div class="info">
+                    <h4>Marka 3 - Ürün 3</h4>
+                    <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                    <p style="margin:30px;color:orange;font-weight: bold;">300 TL</p>
+                </div>
+            </div>
+            <div class="card">
+              <button class="heart-button like">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                </svg>
+              </button>
+                <img src="img/card4.webp" alt="Ürün">
+                <div class="info">
+                    <h4>Marka 4 - Ürün 4</h4>
+                    <p class="stars">⭐⭐⭐⭐ (95)</p>
+                    <p style="margin:30px;color:orange;font-weight: bold;">280 TL</p>
+                </div>
+            </div>
+            <div class="card">
+              <button class="heart-button like">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                </svg>
+              </button>
+                <img src="img/card5.webp" alt="Ürün">
+                <div class="info">
+                    <h4>Marka 5 - Ürün 5</h4>
+                    <p class="stars">⭐⭐⭐⭐⭐ (180)</p>
+                    <p style="margin:30px;color:orange;font-weight: bold;">350 TL</p>
+                </div>
+            </div>
+            <div class="card">
+              <button class="heart-button like">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+                </svg>
+              </button>
+              <img src="img/card1.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 1 - Ürün 1</h4>
+                  <p class="stars">⭐⭐⭐⭐☆ (120)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">250 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card2.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 2 - Ürün 2</h4>
+                  <p class="stars">⭐⭐⭐☆☆ (90)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">200 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card11.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 3 - Ürün 3</h4>
+                  <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">300 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card12.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 3 - Ürün 3</h4>
+                  <p class="stars">⭐☆☆☆☆ (150)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">300 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card13.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 3 - Ürün 3</h4>
+                  <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">290 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card14.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 3 - Ürün 3</h4>
+                  <p class="stars">⭐⭐⭐☆☆ (150)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">200 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card11.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 3 - Ürün 3</h4>
+                  <p class="stars">⭐⭐⭐⭐☆ (150)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">1000 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card7.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 3 - Ürün 3</h4>
+                  <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">900 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card3.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 3 - Ürün 3</h4>
+                  <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">500 TL</p>
+              </div>
+          </div>
+          <div class="card">
+            <button class="heart-button like">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.8 4.6c-1.8-1.8-4.8-1.8-6.6 0l-.7.7-.7-.7c-1.8-1.8-4.8-1.8-6.6 0s-1.8 4.8 0 6.6l7.3 7.3 7.3-7.3c1.8-1.8 1.8-4.8 0-6.6z"/>
+              </svg>
+            </button>
+              <img src="img/card8.webp" alt="Ürün">
+              <div class="info">
+                  <h4>Marka 3 - Ürün 3</h4>
+                  <p class="stars">⭐⭐⭐⭐⭐ (150)</p>
+                  <p style="margin:30px;color:orange;font-weight: bold;">300 TL</p>
+              </div>
+          </div>
+        </div>
+    </div>
+    <button class="navigation next" onclick="moveSlide(1)">&#10095;</button>
+  </div>
+  </div>
+  
+  </div>
+
+
+  <!-- Bottom container -->
+   <main>
+    <div class="bottom-container">
+        <div><img src="img/card21.webp" alt=""></div>
+        <div><img src="img/card44.webp" alt=""></div>
+        <div><img src="img/card23.webp" alt=""></div>
+        <div><img src="img/card24.webp" alt=""></div>
+        <div><img src="img/card25.webp" alt=""></div>
+        <div><img src="img/card26.webp" alt=""></div>
+        <div><img src="img/card27.webp" alt=""></div>
+        <div><img src="img/card28.webp" alt=""></div>
+        <div><img src="img/card29.webp" alt=""></div>
+        <div><img src="img/card30.webp" alt=""></div>
+        <div><img src="img/card31.webp" alt=""></div>
+        <div><img src="img/card32.webp" alt=""></div>
+        <div><img src="img/card50.webp" alt=""></div>
+        <div><img src="img/card33.webp" alt=""></div>
+        <div><img src="img/card34.webp" alt=""></div>
+        <div><img src="img/card35.webp" alt=""></div>
+        <div><img src="img/card36.webp" alt=""></div>
+        <div><img src="img/card37.webp" alt=""></div>
+        <div><img src="img/card38.webp" alt=""></div>
+        <div><img src="img/card20.webp" alt=""></div>
+        <div><img src="img/card40.webp" alt=""></div>
+        <div><img src="img/card41.webp" alt=""></div>
+        <div><img src="img/card42.webp" alt=""></div>
+        <div><img src="img/card44.webp" alt=""></div>
+        <div><img src="img/card45.webp" alt=""></div>
+        <div><img src="img/card46.webp" alt=""></div>
+        <div><img src="img/card47.webp" alt=""></div>
+        <div><img src="img/card48.webp" alt=""></div>
+        <div><img src="img/card49.webp" alt=""></div>
+        <div><img src="img/card50.webp" alt=""></div>
+        <div><img src="img/card51.webp" alt=""></div>
+        <div><img src="img/card52.webp" alt=""></div>
+        <div><img src="img/card53.webp" alt=""></div>
+        <div><img src="img/card21.webp" alt=""></div>
+        <div><img src="img/card44.webp" alt=""></div>
+        <div><img src="img/card23.webp" alt=""></div>
+        <div><img src="img/card24.webp" alt=""></div>
+        <div><img src="img/card25.webp" alt=""></div>
+        <div><img src="img/card26.webp" alt=""></div>
+        <div><img src="img/card63.webp" alt=""></div>
+        <div><img src="img/card64.webp" alt=""></div>
+        <div><img src="img/card65.webp" alt=""></div>
+    </div>
+
+<!-- Bottom container bitiş -->
+
+<hr>
+<div class="top-footer">
+<h3>Tüm İhtiyaçlarınız İçin Tek İhtiyacınız Trendyol!</h3>
+<p>Tüm İhtiyaçlarınız İçin Tek İhtiyacınız Trendyol!</p>
+<p>Türkiye’nin önemli online alışveriş adreslerinden biri olan Trendyol, 2010 yılında modayı herkes için ulaşılabilir kılmak amacıyla kuruldu. Giyimden aksesuara, ayakkabıdan kozmetiğe kadar pek çok ürünle beğeni kazanır. Firma, gelişen pazar hacminde büyük söz sahibi olur. Hem farklı zevklere hem de bütçelere hitap eder. Kolay ve güvenli bir deneyim sunar. Üst ve alt giyim kategorilerinde çeşitli modeller hazırlanır. Bu koleksiyonlar uygun fiyat avantajıyla sunulur. Her mevsime uygun ürün seçenekleri bulunur. Kışlık seçimlerde kazak, mont, hırka, ceket gibi ürünleri baskındır. Yaz kombinlerinde renkli ve sade tişört modelleri sıklıkla kullanılır. İnce kumaştan üretilen jeanlar ve kapriler de yine yaz ayları için ideal bir seçimler olarak değerlendirilir. Yaz tatili için de bikini takımlarından satın alabiliriz. Geniş beden aralığı sayesinde istediğimiz ürünü tercih edebiliriz.</p>
+<p>Modern Tasarımlarıyla Dikkat Çeken Trendyol Markaları</p>
+<p>Kıyafet kombinleri seçilen ayakkabıyla tamamlanır. Günlük ayakkabı, spor ayakkabı, topuklu ayakkabı, sandalet, bot ve çizme olmak üzere geniş bir ürün skalası hazırlanır. Kıyafet tasarımları ise hedef kitlenin beklentilerine göre şekillendirilir. Elbiseden gömleğe, tunikten eşofman takımına kadar pek çok kategoride üretim yapılır. Sade, modern, kaliteli ve şık tasarımlar ilgiyle takip edilir. Sezonun trend renkleri ve modelleri hazırlanan kreasyonlarda hissedilir. Üretici markalar çocuklar için farklı tasarımlara imza atarlar. Birbirinden rahat, renkli ve eğlenceli modeller hazırlanır. Kız ve erkek çocukları için farklı kategoriler bulunur. Mevcut çeşitlilik beklentilerin karşılanması noktasında önemlidir. Giyim markaları arasından kendiniz veya çocuğunuz için ideal ürünleri seçebilirsiniz.</p>
+<p>Trendyol Özel Gün İndirimleriyle Kaçırılmayacak Fırsatlar</p>
+<p>Toplumdaki sosyal bilincin oluşmasına katkı sağlayan Trendyol, Sepette İyilik uygulamasıyla farklı kategorilerde faaliyet gösteren sivil toplum kuruluşlarına ait ürünlerin satışını yapar. Böylece yardım zinciri oluşturulur. Yapılan tüm alışverişlerde avantaj elde etmek için ise devreye Trendyol Elite fırsatı girer. Özel hizmet ve ayrıcalıklar ilgi çekici bulunur. Bu ayrıcalıkları kullanarak mutfak alışverişinizi Trendyol Hızlı Market ile yapabilirsiniz. Temel gıdadan atıştırmalıklara, sebzeden meyveye pek çok kategoride istediğiniz ürünleri hızlı market ile bulabilirsiniz. Evden çıkmadan yapacağınız mutfak alışverişi yanında Trendyol Yemek ile de akşam yemeklerinizi pratik şekilde halledebilirsiniz. Yoğun iş temposunda yapamadığınız akşam yemeklerini bu uygulama sayesinde dert etmenize gerek kalmaz. Trendyol tarafından düzenlenen indirimler sayesinde alışveriş fırsatlarını değerlendirmek mümkündür.</p>
+<p>Modaya Uygun Trend Parçalar</p>
+<p>Ev yaşam ürünlerinde, giyimde, kozmetikte, elektronikte, oyuncu ekipmanlarında, pratik mutfak eşyalarında, bebek & çocuk ürünlerinde ve süpermarket kategorilerinde yapacağınız alışverişlerde uygun fiyat avantajından yararlanabilirsiniz. Belirli zamanlarda yapılan kampanyalar sayesinde sezonun moda kıyafetlerine ulaşabilir ve evinizin ihtiyaçlarını tamamlayabilirsiniz. Yaz tatilinin bitmesiyle başlayan okul telaşı Trendyol ile sorun olmaktan çıkar. Okul öncesi, ilkokul, ortaokul, lise, üniversite olarak kategorilere ayrılan kırtasiye ürünleri ihtiyaçların karşılanması için listelenir. Aynı zamanda mevsim geçişlerinde yapılan alışverişler için de çeşitli fırsatlar oluşturulur. Mevcut fırsatlar sayesinde hazırlık yapabilir, eksiklerinizi tamamlayabilirsiniz. Yapılan indirimlerde yer alan ürün çeşitliliği oldukça fazladır. Gram altın seçeneklerine dahi ulaşmak mümkündür. Hediye veya yatırım amaçlı üretilen çeşitler mevcuttur. Çeyrek altın sık tercih edilen ürünlerin başında gelir.</p>
+<p>Elektronik Eşyalarda Uygun Fiyatlar</p>
+<p>Ayakkabı & Çanta ürünleri ile günlük kombinlere şıklık katmak mümkündür. Sneaker, casual, topuklu ayakkabı, bot, çizme, kol ve sırt çantası modelleri başta olmak üzere geniş bir tasarım yelpazesi oluşturulur. Spor & Outdoor kategorisinde yer alan parçalar da aynı şekilde sahip oldukları çeşitlilikle dikkat çekerler. Giyim eşyaları ve ekipmanlar farklı başlıklar altında gruplandırılır. Yapılan gruplandırmada hedef kitlenin özellikleri belirleyici kriter olarak kabul edilir. İlgili kategoride farklı markaların ürünlerinin olması öncelikle seçim kolaylığı sağlar. Sonraki aşamada ise farklı bütçelere hitap edilmesini destekler. Karar aşamasında kişinin üründen ne beklediğini belirlemesi gerekir. Ayrıca kaliteli markaların tercih edilmesi, kullanım konforu açısından önemlidir. Üretim aşamasında seçilen malzemelerin, tasarım çizgilerinin ve işçiliğin göz önüne alınması tavsiye edilir. Nitelikli ürün seçimi sayesinde kullanım konforu yükselir. Hem kendiniz hem de sevdikleriniz için tercihinizi rahat, şık ve kaliteli modellerden yana kullanabilirsiniz.</p>
+<p>Tüm İhtiyaçların Trendyol’da!</p>
+<p>Ev & Mobilya kategorisinde yer alan ev tekstili, sofra & mutfak, aydınlatma, banyo, ev dekorasyon, mobilya, ev gereçleri, hobi, kırtasiye & ofis, yapı & market, oto & motosiklet ürünlerini indirim günlerinde yapılan kampanyalarla uygun fiyata satın alabilirsiniz. Bu kategori, yeni evlenecek çiftler ve evini yenilemek isteyenler için farklı markaları ve ürün çeşitlerini bir arada sunar. Bu sayede ihtiyaçlar kolay bir şekilde tamamlanır. Elektronik kategori içerisinde ise beyaz eşya, küçük ev aletleri, Tv & görüntü, ses, giyilebilir teknoloji, tablet & bilgisayar, elektronik aksesuarlar, kişisel bakım aletleri, oyunculara özel ürünler yer alır. İlgili başlık altında satılan akıllı cep telefonları da geniş model yelpazeleri ile ön plana çıkar. iPhone 11 sıklıkla tercih edilen cihazların başında gelir. iPhone 11 Pro Max modeli de tasarımı ve performansıyla etki alanını genişletir. Dikkat çeken bir diğeri ise iPhone 12 Pro Max modelidir ve teknik özellikleri sayesinde adından sıkça söz ettirir. Model çeşitliliği fiyat noktasında da kendini gösterir. İndirim günlerini takip ederek yapılan ayrıcalıklardan yararlanabilirsiniz. Kişisel bakımınızı da kozmetik kategorisinde yer alan makyaj, cilt bakımı, parfüm & deodorant, saç bakımı, epilasyon & tıraş ve genel bakım ürünleri sayesinde yerine getirebilirsiniz. Marka çeşitliliği bu kategori için de geçerlidir. Teknolojik ürünlerin haricinde hazırlanan Saat & Aksesuar grubu da ilgiyle takip edilir. Kadın, erkek ve çocuklar için üretilen birçok tasarım mevcuttur.</p>
+<p>En Yeni Ürünlerle İlginizi Çekebilecek Kategoriler</p>
+<p>
+  <a href="#">iPhone 16</a> | 
+  <a href="#">Akıllı Saat</a> | 
+  <a href="#">Bluetooth Kulaklık</a> | 
+  <a href="#">Cep Telefonu</a> | 
+  <a href="#">Elektrikli Scooter</a> | 
+  <a href="#">Laptop</a> | 
+  <a href="#">Robot Süpürge</a> | 
+  <a href="#">Bisiklet</a> | 
+  <a href="#">Çamaşır Makinesi</a> | 
+  <a href="#">Abiye Elbise</a> | 
+  <a href="#">iPhone 16 Plus</a> | 
+  <a href="#">Erkek Mont</a> | 
+  <a href="#">Spor Ayakkabı</a> | 
+  <a href="#">Çalışma Masası</a> | 
+  <a href="#">Buzdolabı</a> | 
+  <a href="#">Kulaklık</a> | 
+  <a href="#">iPhone 16 Pro Max</a> | 
+  <a href="#">iPhone 16 Pro Max</a> | 
+  <a href="#">Trendyol Arabic</a> | 
+  <a href="#">Trendyol English</a> | 
+  <a href="#">Trendyol Czech</a> | 
+  <a href="#">Trendyol Romanian</a> | 
+  <a href="#">Trendyol Slovak</a> | 
+  <a href="#">Trendyol Deutsch</a> | 
+  <a href="#">Trendyol Hungarian</a> | 
+  <a href="#">Trendyol Greek</a>
+</p>
+</div>
+<hr>
+
+
+<!-- Popüler markalar -->
+
+<div class="popular-brands">
+  <div>Popüler Marka ve Mağazalar</div>
+  <div class="popular-page-brands">Popüler Sayfalar</div>
+</div>
+
+<div class="container-populer">
+  <div class="column">
+      <ul>
+          <li>Penti</li>
+          <li>Watsons</li>
+          <li>Stradivarius</li>
+          <li>Columbia</li>
+          <li>Puma</li>
+          <li>Apple</li>
+          <li>Xiaomi</li>
+          <li>Birkenstock</li>
+          <li>Adidas</li>
+          <li>Lacoste</li>
+
+      </ul>
+  </div>
+  
+  <div class="column">
+      <ul>
+        
+          <li>Apple Watch</li>
+          <li>iPhone 16 Pro Max</li>
+          <li>iPhone 16</li>
+          <li>Kadın Mont</li>
+          <li>Televizyon</li>
+          <li>Sneaker</li>
+          <li>Popüler Aramalar</li>
+          <li>Apple Airpods</li>
+          <li>Trendyol Hungarian</li>
+          <li>Trendyol Czech</li>
+
+      </ul>
+  </div>
+
+
+  <div class="column">
+    <ul>
+    <li>Trendyol Arabic</li>
+    <li>iPhone</li>
+    <li>iPhone 15</li>
+    <li>iPhone 15 Pro</li>
+    <li>Bulaşık Makinesi</li>
+    <li>iPhone 16 Pro</li>
+    <li>Sırt Çantası</li>
+    <li>Erkek Mont</li>
+    <li>Bluetooth Kulaklık</li>
+    <li>Azerbaycan'dan Alışveriş</li>
+  </ul>
+  </div>
+
+
+  <div class="column">
+    <ul>
+    <li>Madame Coco</li>
+    <li>Defacto</li>
+    <li>Tchibo</li>
+    <li>Network</li>
+    <li>Kığılı</li>
+    <li>Mango</li>
+    <li>English Home</li>
+    <li>The North Face</li>
+    <li>Samsung</li>
+    <li>Mudo</li>
+  </ul>
+  </div>
+
+<div class="column">
+
+  <ul>
+      <li>Penti</li>
+      <li>Watsons</li>
+      <li>Stradivarius</li>
+      <li>Columbia</li>
+      <li>Puma</li>
+      <li>Apple</li>
+      <li>Xiaomi</li>
+      <li>Birkenstock</li>
+      <li>Adidas</li>
+      <li>Lacoste</li>
+
+  </ul>
+</div>
+
+<div class="column">
+  <ul>
+    
+      <li>Apple Watch</li>
+      <li>iPhone 16 Pro Max</li>
+      <li>iPhone 16</li>
+      <li>Kadın Mont</li>
+      <li>Televizyon</li>
+      <li>Sneaker</li>
+      <li>Popüler Aramalar</li>
+      <li>Apple Airpods</li>
+      <li>Trendyol Hungarian</li>
+      <li>Trendyol Czech</li>
+
+  </ul>
+</div>
+
+
+<div class="column">
+<ul>
+<li>Trendyol Arabic</li>
+<li>iPhone</li>
+<li>iPhone 15</li>
+<li>iPhone 15 Pro</li>
+<li>Bulaşık Makinesi</li>
+<li>iPhone 16 Pro</li>
+<li>Sırt Çantası</li>
+<li>Erkek Mont</li>
+<li>Bluetooth Kulaklık</li>
+<li>Azerbaycan'dan Alışveriş</li>
+</ul>
+</div>
+</div>
+
+
+
+<div style="background-color: #F5F5F5;" class="footer-container">
+  <div>
+    <h3>
+      Trendyol
+    </h3>
+    <ul>
+      <li><a href="">Biz Kimiz</a></li>
+      <li><a href="">Kariyer</a></li>
+      <li><a href="">Sürdürülebilir</a></li>
+      <li><a href="">İletişim</a></li>
+      <li><a href="">Trendyol'da Güvenlik</a></li>
+    </ul>
+  </div>
+  <div>
+    <h3>
+Kampanyalar
+    </h3>
+    <ul>
+      <li><a href="">Kampanyalar</a></li>
+      <li><a href="">Alışveriş Kredisi</a></li>
+      <li><a href="">Elit Üyelik</a></li>
+      <li><a href="">Hediye Fikirleri</a></li>
+    </ul>
+  </div>
+  <div>
+    <h3>
+Satıcı
+    </h3>
+    <ul>
+      <li><a href="">Trendyol'da Satış Yap</a></li>
+      <li><a href="">Temel Kavramlar</a></li>
+      <li><a href="">Trendyol Akademi</a></li>
+    </ul>
+  </div>
+  <div>
+    <h3>
+Yardım
+    </h3>
+    <ul>
+      <li><a href="">Sıkça Sorulan Sorular</a></li>
+      <li><a href="">Canlı Yardım / Asistan</a></li>
+      <li><a href="">Nasıl İade Edebilirim</a></li>
+      <li><a href="">İşlem Rehberi</a></li>
+    </ul>
+  </div>
+  <div>
+    <h3>
+Ülke Değiştir
+    </h3>
+<button class="country-button">Ülke Seç > </button>
+<h3>Sosyal Medya</h3>
+<div class="social-icons">
+        <a href="https://facebook.com" class="facebook" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://instagram.com" class="instagram" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://youtube.com" class="youtube" target="_blank">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://twitter.com" class="twitter" target="_blank">
+            <i class="fab fa-x-twitter"></i>
+        </a>
+    </div>
+  </div>
+</div>
+
+<!-- footer bottom -->
+<div class="footer-bottom">
+  <div class="footer-section">
+    <h3>Güvenlik Sertifikası</h3>
+    <div class="left-bottom-footer">
+      <img src="img/footer1.webp" alt="">
+      <img src="img/footer2.webp" alt="">
+      <img src="img/footer3.webp" alt="">
+      <img src="img/footer4.webp" alt="">
+    </div>
+  </div>
+  <div class="footer-section">
+    <h3>Güvenli Alışveriş</h3>
+    <div class="center-bottom-container">
+      <img src="img/footer5.webp" alt="">
+      <img src="img/footer6.webp" alt="">
+      <img src="img/footer7.webp" alt="">
+      <img src="img/footer8.webp" alt="">
+    </div>
+  </div>
+  <div class="footer-section">
+    <h3>Mobil Uygulamalar</h3>
+    <div class="right-bottom-container">
+      <img src="img/footer9.webp" alt="">
+      <img src="img/footer10.webp" alt="">
+      <img src="img/footer11.webp" alt="">
+    </div>
+  </div>
+</div>
+
+
+<div class="b-container">
+  <div>
+    <footer>&copy; 2025 DSM Grup Danışmanlık İletişim ve Satış Tic. A.Ş. Her Hakkı Saklıdır.</footer>
+  </div>
+  <div class="bb-container">
+    <a href="">Çerez Tercihleri</a>
+    <a href="">KVKK ve Gizlilik Politikası</a>
+    <a href="">DSM Grup</a>
+    <a href="">Kullanım Koşulları</a>
+  </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

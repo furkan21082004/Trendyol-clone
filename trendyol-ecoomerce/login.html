@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+</head>
+<body>
+ <!--Sayfamızın menü kısmı -->
+ <header>
+    <div class="topbar">
+        <ul>
+            <li>İndirim Kuponlarım </li>
+            <li>Trendyol'da Satış Yap </li>
+            <li>Hakkımızda </li>
+            <li>Yardım & Destek</li>
+        </ul>
+    </div>
+
+    <div class="bottombar">
+        <a href="" class="logo"><img src="img/logo.svg" alt=""></a>
+        <form action="">
+            <input type="text" class="form-control search-input" id="formGroupExampleInput" placeholder="Aradığınız ürün, kategori veya markayı yazınız">
+            <button class="search-buton"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <div class="bottom_right_bar">
+            <ul>
+              <li><i class="fa-solid fa-user"></i>Giriş Yap</a></li>
+              <li><i class="fa-regular fa-heart"></i> Favorilerim</li>
+              <li><i class="fa-solid fa-cart-shopping"></i> Sepetim</li>
+            </ul>
+        </div>
+    </div>
+
+    <nav>
+        <div class="leftnav">
+          <a href="#">
+            <i class="fa-solid fa-ellipsis-vertical"></i> TÜM KATEGORİLER
+        </a>
+        </div>
+        <div class="rightnav">
+            <ul>
+                <li>Kadın</li>
+                <li>Erkek</li>
+                <li>Anne&Çocuk</li>
+                <li>Ev&Yaşam</li>
+                <li>Süpermarket</li>
+                <li>Kozmetik</li>
+                <li>Ayakkabı&Çanta</li>
+                <li>Elektronik</li>
+                <li>Çok Satanlar</li><i></i>
+                <li>Flaş Ürünler</li><i></i>
+            </ul>
+        </div>
+    </nav>
+  
+</header>
+
+<!-- Login kısmı -->
+
+<p style="text-align: center;margin-top: 2%;font-size: 18px;font-weight: 500;">Merhaba,</p>
+<p style="text-align: center;">Trendyol’a giriş yap veya hesap oluştur, indirimleri kaçırma!</p>
+
+<div class="container">
+    <div class="tabs">
+        <div class="tab active log-in" onclick="showForm('login')">Giriş Yap</div>
+        <div class="tab sign-up" onclick="showForm('register')">Üye Ol</div>
+    </div>
+
+    <div id="login" class="form-container active">
+        <div class="form-group">
+            <label for="email">E-Posta</label>
+            <input type="email" id="email">
+        </div>
+        <div class="form-group">
+            <label for="password">Şifre</label>
+            <div style="display: flex;">
+                <input type="password" id="password"><img style="width: 20px;margin-left: -40px;height: 20px;margin-top: 10px;" src="img/eye-closed.png" alt="">
+            </div>
+        </div>
+       <a href="" style="margin-left: 240px;font-size: 15px;text-decoration:underline;"> Şifremi Unuttum </a>
+        <button class="button">GİRİŞ YAP</button>
+        <div style="display: flex; gap: 10px;margin-top: 3%;">
+            <!-- Facebook Girişi -->
+            <div style="display: flex; align-items: center; border: 1px solid lightgray; padding: 5px; width: 180px; border-radius: 5px;">
+                <i style="font-size: 30px; color: #1877F2; margin-right: 10px;margin-left: 20px;" class="fa-brands fa-facebook"></i>
+                <p style="margin-left: 10px; font-weight: bold;">Facebook <br><span style="font-weight: normal;">ile giriş yap</span></p>
+            </div>
+        
+            <!-- Google Girişi -->
+            <div style="display: flex; align-items: center; border: 1px solid lightgray; padding: 5px; width: 180px; border-radius: 5px;">
+                <i style="font-size: 30px; color: #DB4437; margin-right: 10px;margin-left: 20px;" class="fa-brands fa-google"></i>
+                <p style="margin-left: 10px; font-weight: bold;">Google <br><span style="font-weight: normal;">ile giriş yap</span></p>
+            </div>
+        </div>
+        <p style="font-size: 14px;text-align: center;margin-top: 2%;">Üye olmadan verilen siparişlerin takibi için
+           <a href="" style="text-decoration:line-through;">tıklayınız.</a> </p>
+    </div>
+
+
+    <!-- Üye ol -->
+    <div id="register" class="form-container">
+        <div class="form-group">
+            <label for="reg-email">E-Posta</label>
+            <input type="email" id="reg-email">
+        </div>
+        <div class="form-group">
+            <label for="reg-password">Şifre</label>
+            <div style="display: flex;">
+            <input type="password" id="reg-password">
+            <img style="width: 20px;margin-left: -40px;height: 20px;margin-top: 10px;" src="img/eye-closed.png" alt=""></div>
+            <small>Şifreniz en az 10 karakter olmalı. 1 büyük harf, 1 küçük harf ve rakam içermelidir.</small>
+        </div>
+        <div class="form-group">
+            <label>Cinsiyet (Opsiyonel)</label>
+            <div>
+            <button class="cinsiyet-button" style="width: 45%;padding: 10px;border-radius: 5px;">Kadın</button>
+            <button class="cinsiyet-button" style="width: 45%;padding: 10px;border-radius: 5px;">Erkek</button>
+        </div>
+        </div>
+        <div class="checkbox-group">
+            <input class="uye-checkbox" type="checkbox" id="offer">
+            <label style="font-size: 11px;font-weight: 300;" for="offer">Avantajlı tekliflere izin veriyorum.</label>
+        </div>
+        <div class="checkbox-group">
+            <input class="uye-checkbox"  type="checkbox" id="email-accept">
+            <label  style="font-size: 11px;font-weight: 300;" for="email-accept">Elektronik ileti gönderilmesini kabul ediyorum.</label>
+        </div>
+        <div class="checkbox-group">
+            <input class="uye-checkbox"  type="checkbox" id="privacy">
+            <label  style="font-size: 11px;font-weight: 300;" for="privacy">Aydınlatma metnini okudum ve anladım.</label>
+        </div>
+        <button style="margin-top: 2%;" class="button">ÜYE OL</button>
+        <div class="social-login">
+          <div style="display: flex; align-items: center; border: 1px solid lightgray; padding: 5px; width: 180px; border-radius: 5px;">
+                <i style="font-size: 30px; color: #1877F2; margin-right: 10px;margin-left: 20px;" class="fa-brands fa-facebook"></i>
+                <p style="margin-left: 10px; font-weight: bold;">Facebook <br><span style="font-weight: normal;">ile giriş yap</span></p>
+            </div>
+        
+            <!-- Google Girişi -->
+            <div style="display: flex; align-items: center; border: 1px solid lightgray; padding: 5px; width: 180px; border-radius: 5px;">
+                <i style="font-size: 30px; color: #DB4437; margin-right: 10px;margin-left: 20px;" class="fa-brands fa-google"></i>
+                <p style="margin-left: 10px; font-weight: bold;">Google <br><span style="font-weight: normal;">ile giriş yap</span></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Form bitiş -->
+
+
+<!-- Form başlangıç -->
+<div style="background-color: #F5F5F5;" class="footer-container">
+    <div>
+      <h3>
+        Trendyol
+      </h3>
+      <ul>
+        <li><a href="">Biz Kimiz</a></li>
+        <li><a href="">Kariyer</a></li>
+        <li><a href="">Sürdürülebilir</a></li>
+        <li><a href="">İletişim</a></li>
+        <li><a href="">Trendyol'da Güvenlik</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>
+  Kampanyalar
+      </h3>
+      <ul>
+        <li><a href="">Kampanyalar</a></li>
+        <li><a href="">Alışveriş Kredisi</a></li>
+        <li><a href="">Elit Üyelik</a></li>
+        <li><a href="">Hediye Fikirleri</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>
+  Satıcı
+      </h3>
+      <ul>
+        <li><a href="">Trendyol'da Satış Yap</a></li>
+        <li><a href="">Temel Kavramlar</a></li>
+        <li><a href="">Trendyol Akademi</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>
+  Yardım
+      </h3>
+      <ul>
+        <li><a href="">Sıkça Sorulan Sorular</a></li>
+        <li><a href="">Canlı Yardım / Asistan</a></li>
+        <li><a href="">Nasıl İade Edebilirim</a></li>
+        <li><a href="">İşlem Rehberi</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>
+  Ülke Değiştir
+      </h3>
+  <button class="country-button">Ülke Seç > </button>
+  <h3>Sosyal Medya</h3>
+  <div class="social-icons">
+          <a href="https://facebook.com" class="facebook" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://instagram.com" class="instagram" target="_blank">
+              <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://youtube.com" class="youtube" target="_blank">
+              <i class="fab fa-youtube"></i>
+          </a>
+          <a href="https://twitter.com" class="twitter" target="_blank">
+              <i class="fab fa-x-twitter"></i>
+          </a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- footer bottom -->
+ 
+  <div style="background-color: #F5F5F5;" class="footer-bottom">
+    <div class="footer-section">
+      <h3>Güvenlik Sertifikası</h3>
+      <div class="left-bottom-footer">
+        <img src="img/footer1.webp" alt="">
+        <img src="img/footer2.webp" alt="">
+        <img src="img/footer3.webp" alt="">
+        <img src="img/footer4.webp" alt="">
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3>Güvenli Alışveriş</h3>
+      <div class="center-bottom-container">
+        <img src="img/footer5.webp" alt="">
+        <img src="img/footer6.webp" alt="">
+        <img src="img/footer7.webp" alt="">
+        <img src="img/footer8.webp" alt="">
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3>Mobil Uygulamalar</h3>
+      <div class="right-bottom-container">
+        <img src="img/footer9.webp" alt="">
+        <img src="img/footer10.webp" alt="">
+        <img src="img/footer11.webp" alt="">
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="b-container">
+    <div>
+      <footer>&copy; 2025 DSM Grup Danışmanlık İletişim ve Satış Tic. A.Ş. Her Hakkı Saklıdır.</footer>
+    </div>
+    <div class="bb-container">
+      <a href="">Çerez Tercihleri</a>
+      <a href="">KVKK ve Gizlilik Politikası</a>
+      <a href="">DSM Grup</a>
+      <a href="">Kullanım Koşulları</a>
+    </div>
+  </div>
+
+
+<script>
+    function showForm(form) {
+        document.getElementById('login').classList.remove('active');
+        document.getElementById('register').classList.remove('active');
+        document.querySelector('.tab.active').classList.remove('active');
+
+        if (form === 'login') {
+            document.getElementById('login').classList.add('active');
+            document.querySelector('.tabs .tab:nth-child(1)').classList.add('active');
+        } else {
+            document.getElementById('register').classList.add('active');
+            document.querySelector('.tabs .tab:nth-child(2)').classList.add('active');
+        }
+    }
+
+
+// Şifre gücü hesaplama
+
+</script>
+</body>
+</html>
